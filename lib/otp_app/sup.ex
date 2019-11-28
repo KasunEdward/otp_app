@@ -6,6 +6,7 @@ defmodule OtpApp.Sup do
   use Supervisor
 
   def start_link(arg) do
+    IO.puts("11111")
     Supervisor.start_link(__MODULE__, arg)
   end
 
